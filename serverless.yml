@@ -1,0 +1,17 @@
+nextjsTest:
+  component: '@serverless/tencent-nextjs'
+  inputs:
+    functionName: serverless-ran
+    region: ap-guangzhou
+    code: ./
+    functionConf:
+      timeout: 30
+      memorySize: 256
+    environment:
+      variables:
+        NODE_ENV: production
+    apigatewayConf:
+      protocols:
+        - http
+        - https
+      environment: release

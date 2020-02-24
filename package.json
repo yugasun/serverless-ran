@@ -1,16 +1,16 @@
 {
-  "name": "ran-boilerplate",
-  "version": "0.9.0",
+  "name": "serverless-ran",
+  "version": "0.1.0",
   "main": "server.js",
-  "description": "React . Apollo (GraphQL) . Next.js Toolkit",
-  "author": "Ilker Guller <me@ilkerguller.com> (http://ilkerguller.com)",
+  "description": "Serverless . React . Apollo (GraphQL) . Next.js Toolkit",
+  "author": "yugasun",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Sly777/ran"
+    "url": "https://github.com/yugasun/serverless-ran"
   },
   "bugs": {
-    "url": "https://github.com/Sly777/ran/issues"
+    "url": "https://github.com/yugasun/serverless-ran/issues"
   },
   "keywords": [
     "next.js",
@@ -119,10 +119,6 @@
     "replace-in-file": "3.4.2",
     "shelljs": "0.8.3",
     "webpack-bundle-analyzer": "3.0.3"
-  },
-  "collective": {
-    "type": "opencollective",
-    "url": "https://opencollective.com/ran"
   },
   "husky": {
     "hooks": {
