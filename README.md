@@ -120,7 +120,7 @@ yarn && yarn setup:clean
 
 ## Example
 
-[Click here](ttps://service-373sxf6q-1251556596.gz.apigw.tencentcs.com/release/) to see example project to understand how RAN! works on production. I used [graph.cool](https://graph.cool/) service for GraphQL and [now](https://zeit.co/now) for hosting in the example.
+[Click here](https://service-373sxf6q-1251556596.gz.apigw.tencentcs.com/release/) to see example project to understand how RAN! works on production. I used [graph.cool](https://graph.cool/) service for GraphQL and [now](https://zeit.co/now) for hosting in the example.
 
 ## Commands
 
