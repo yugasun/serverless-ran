@@ -75,18 +75,18 @@ If you don't have a Tencent Cloud account, you could [sign up](https://intl.clou
 
 ```yml
 # serverless.yml
-NextjsFunc:
+ServerlessRan:
   component: '@serverless/tencent-nextjs'
   inputs:
-    functionName: nextjs-function
+    functionName: serverless-ran
     region: ap-guangzhou
     code: ./
     functionConf:
       timeout: 30
-      memorySize: 128
+      memorySize: 256
     environment:
       variables:
-        RUN_ENV: test
+        NODE_ENV: production
     apigatewayConf:
       protocols:
         - http

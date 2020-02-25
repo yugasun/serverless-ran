@@ -1,4 +1,4 @@
-nextjsTest:
+ServerlessRan:
   component: '@serverless/tencent-nextjs'
   inputs:
     functionName: serverless-ran
