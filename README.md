@@ -33,10 +33,10 @@ Fork by [ran](https://github.com/Sly777/ran), and integrated with [Serverless Fr
 ```bash
 git clone --depth=1 https://github.com/yugasun/serverless-ran.git serverless-ran
 cd serverless-ran
-yarn && yarn setup
+yarn
 ```
 
-- If you are not using Yarn, just run `npm install && npm run setup` instead of `yarn && yarn setup`
+- If you are not using Yarn, just run `npm install` instead of `yarn`
 - After everything is finished, run `yarn dev` (or `npm run dev`)
 
 And that's all!
@@ -120,7 +120,7 @@ yarn && yarn setup:clean
 
 ## Example
 
-[Click here](https://service-373sxf6q-1251556596.gz.apigw.tencentcs.com/release/) to see example project to understand how RAN! works on production. I used [graph.cool](https://graph.cool/) service for GraphQL and [now](https://zeit.co/now) for hosting in the example.
+[Click here](https://service-74whi6qw-1251556596.gz.apigw.tencentcs.com/release/) to see example project to understand how RAN! works on production. I used [graph.cool](https://graph.cool/) service for GraphQL and [now](https://zeit.co/now) for hosting in the example.
 
 ## Commands
 
