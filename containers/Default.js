@@ -19,8 +19,8 @@ const Default = (props: Props) => (
     <Helmet>
       <title>
         {props.title && props.title !== ''
-          ? `${props.title} :: RAN! React . GraphQL . Next.js Toolkit`
-          : 'RAN! React . GraphQL . Next.js Toolkit'}
+          ? `${props.title} :: serverless-ran! React . GraphQL . Next.js`
+          : 'serverless-ran! React . GraphQL . Next.js'}
       </title>
     </Helmet>
     <Header pathname={props.router.url.pathname} />
