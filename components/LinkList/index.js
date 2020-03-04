@@ -39,11 +39,8 @@ const LinkList = ({ pathname, authenticated, logout }: Props) => (
       </LogOutButton>
     )}
     <Externals>
-      <A href="https://www.rantoolkit.com" target="_blank">
-        RAN! Documentation
-      </A>
-      <A href="https://github.com/Sly777/ran" target="_blank">
-        RAN! @ Github
+      <A href="https://github.com/yugasun/serverless-ran" target="_blank">
+        serverless-ran! @ Github
       </A>
     </Externals>
   </Nav>
